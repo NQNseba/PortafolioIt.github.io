@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio terminal</title>
+  <script src="script.js" type="text/javascript" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+      <div class="header"> bash - Seba VDP </div>
+      <div class="terminal" id="terminalWindow" >
+        <section id="terminal">
+          <div class="command">Successful login - <span class="error" id="date"></span></div>
+          <div class="title">Mi Portfolio</div>
+          Hola Soy Sebastian! Bienvenidos a mi portfolio IT, para ver la lista de commandos ingresá <span class="command">help</span>
+        </section>
+        <div class="prompt">
+          <span class="command">$</span> <span class="title">gestuser</span> <input id="promtInput"/>
+        </div>
+      </div>
+    </main>
+    <div class="hidden" id="promptClone">
+      <span class="command">$</span> <span class="title">gestuser</span> <span class="promtCloneInput"></span>
+      <div class="promtCloneContent"></div>
+    </div>
+    <div class="hidden" id="help">
+      <div class="sectionTitle">Podes ingresar cualquiera de estos comandos: </div>
+      <div class="indent">
+        <div>
+          <span class="command">about</span>:
+          <div class="indent">Sobre mi</div> 
+        </div>
+        <div>
+          <span class="command">social</span>:
+          <div class="indent">Listado de mis redes sociales</div> 
+        </div>
+        <div>
+          <span class="command">skills</span>:
+          <div class="indent">Las herramientas con las que trabajo</div> 
+        </div>
+        <div>
+          <span class="command">education</span>:
+          <div class="indent">Todo sobre mi formación</div> 
+        </div>
+        <div>
+          <span class="command">experience</span>:
+          <div class="indent">Donde trabajé hasta ahora</div> 
+        </div>
+        <div>
+          <span class="command">projects</span>:
+          <div class="indent">Un listado de mis proyectos</div> 
+        </div>
+        <div>
+          <span class="command">clear</span>:
+          <div class="indent">Borrar el historial de la terminal</div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="projects">
+      <div class="sectionTitle">Proyectos: </div>
+      <div class="indent">
+        <span class="title">Proyecto 1 </span> - <a href="https://github.com/NQNseba/AluraLatam" target="_blank"><span class="command">https://github.com/NQNseba/AluraLatam</span> </a>
+      </div>
+      <div class="indent">
+        <span class="title">Proyecto 2 </span> - <a href="https://github.com/NQNseba/CaC" target="_blank"><span class="command">https://github.com/NQNseba/CaC</span> </a>
+      </div>
+      <div class="indent">
+        <span class="title">Proyecto 3 </span> - <a href="https://github.com/NQNseba/OpenBootCamp" target="_blank"><span class="command">https://github.com/NQNseba/OpenBootCamp</span> </a>
+      </div>
+    </div>
+
+    <div class="hidden" id="skills">
+      <div class="sectionTitle">Skills: </div>
+      <div class="indent">
+        <div>
+          <span class="command">Programacion</span>:
+          <div class="indent">
+            <span class="title">CSS</span>
+            <span class="title">HTML</span>
+            <span class="title">JavaScritp</span>
+            <span class="title">GIT</span>
+            <span class="title">MySQL</span>
+            <span class="title">Django</span>
+            <span class="title">Python</span>
+            <span class="title">Java</span>
+            <span class="title">React</span>
+            <span class="title">Spark AR Studio</span>
+            <span class="title">Filmora Editor</span>
+            <span class="title">Google Analytics 4</span>
+            <span class="title">WordPress</span>
+
+            <span class="title">Pseudocodigo</span>
+
+          </div> 
+        </div>
+        <div>
+          <span class="command">Idiomas</span>:
+          <div class="indent">
+            <span class="title">Español</span>
+            <span class="title">Ingles</span>
+            <span class="title">Portugués</span>
+            <span class="title">Italiano</span>
+            
+          </div> 
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden" id="about">
+      <div class="sectionTitle">Sobre mi: </div>
+        <div class="indent">
+          Hola! mi nombre es <span class="command">Sebastian Chamorro o Seba VDP </span>
+        Soy un futuro desarrollador Front End de 43 años, nacido y criado al sur de Argentina, en la provincia de Tierra Del Fuego. Durante mi vida estudie difentes carreras y áreas de estudio como las leyes, Radiología, Mandatario Nacional del Automotor, Reparación de Audio/Video y hoy estoy enfocado en mi desarrollo en el mundo IT. Esto no quiere decir que mis otras pasiones como la música (soy baterista) o mi lado cinéfilo hayan desaparcido por completo de mi vida cotidiana, siempre hay que darle un tiempo a la creatividad y la diversión fuera del ámbito laboral. Sí estas interesado conocerme más podemos concretar una entrevista o cita laboral y así aclarar cualquier tipo de dudas. Mi lema es "¡Sí tu idea no existe en el mercado hagámosla realidad!"
+        </div> 
+    </div>
+
+    <div class="hidden" id="experience">
+      <div class="sectionTitle">Experiencia: </div>
+      <div class="indent">
+        <span class="title"> OPEN TO WORK</span> - <span class="command"> FULL TIME</span>
+        
+    </div>
+
+    <div class="hidden" id="social">
+      <div class="sectionTitle">Redes sociales: </div>
+      <div class="indent">
+        <span class="title">Github</span> - <a href="https://github.com/NQNseba/AluraLatam">https://github.com/NQNseba/AluraLatam</a>
+      </div>
+      <div class="indent">
+        <span class="title">LinkedIn</span> - <a href="https://linkedin.com/in/sebastian-chamorro-addegree">https://linkedin.com/sebastian-chamorro-addegree</a>
+      </div>
+      <div class="indent">
+        <span class="title">Instagram</span> - <a href="https://instagram.com/sebastianadexpert">https://www.instagram.com/sebastianadexpert/</a>
+      </div>
+    </div>
+    
+
+    <div class="education hidden" id="education">
+      <div class="sectionTitle">Formación: </div>
+      <div class="indent"></div>
+       
+      <div class="indent">
+        <span class="title"> Digital AdExpert- Aleph</span> <span class="command"> Octubre 2022</span>
+        <span class="title"> Programación Inicial - CAC</span> <span class="command">Diciembre 2022</span>
+        <span class="title"> Programaciòn Desde Cero PDC - EggCooperation</span> <span class="command"> Diciembre 2022</span>
+        <span class="title"> Programación Fullstack Python- CAC</span> <span class="command">Finalizará en Julio 2023</span>
+        <span class="title"> Desarrollo Front End  - Oracle Alura Latam</span> <span class="command">Finalizará Diciembre 2023</span>
+        <span class="title"> QA Testing - Argentina Programa 4.0 </span> <span class="command">Finalizará Diciembre 2023</span>
+       
+       
+        
+         
+      </div>
+    </div>
+</body>
+</html>
